@@ -1,0 +1,15 @@
+.button-style {
+  max-width: 300px;
+  max-height: 58px;
+  background-color: #f2a900;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer !important;
+  transition: 0.3s;
+  border: 0;
+  font-size: 12px !important;
+}
+.button-style:hover {
+  background-color: #ffffff;
+  color: #f2a900;
+}

@@ -1,0 +1,49 @@
+.main-page-header {
+  background-image: url("../../assets/images/header-bg.png");
+  background-color: black;
+  flex-wrap: wrap;
+}
+nav {
+  width: 60%;
+}
+nav ul {
+  list-style-type: none;
+  justify-content: space-around;
+}
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li a:hover {
+  color: #f2a900;
+}
+.bg-image {
+  min-height: 100%;
+  min-width: 150px;
+  background-image: url("../../assets/images/battlegrounds-logo.png");
+  background-repeat: no-repeat;
+}
+.globe-image {
+  min-height: 100%;
+  min-width: 20%;
+  background-image: url("../../assets/images/globe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+@media screen and (max-width: 899px) {
+  .bg-image {
+    height: 50px;
+    padding: 0;
+  }
+  .main-page-header nav {
+    display: none;
+  }
+  .globe-image {
+    display: block;
+  }
+}
